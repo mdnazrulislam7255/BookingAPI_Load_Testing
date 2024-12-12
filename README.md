@@ -20,20 +20,19 @@ _**This test suite is designed to:**_
    - Step 2: Configure JMeter
      Open the Restful_Booker.jmx file in Apache JMeter.
      Update the HTTP Request Defaults element to set the API base URL and authentication details (if applicable).
-3. **_Import collection:_**
+3. **_Import jmx file:_**
    - Open Jmeter.
    - Click on the Import button.
    - Select the file from the repository.
 
 _**Usage**_ <br>
 
-_**Select Environment:**_ <br>
-      In Apache JMeter, select the appropriate environment from the top-right dropdown. <br>
+_**Select file:**_ <br>
+      In Apache JMeter, select the appropriate jmx file. <br>
 
-_**Run Collection:**_ <br>                         																				
-      Select the imported collection. <br>
+_**Run project:**_ <br>                         																				
+      Select the imported jmx file. <br>
       Select any one of the listener . <br>
-      Select the desired environment. <br>
       Click Start Test to run the project.<br>
       
 _**View Results:**_ <br>
